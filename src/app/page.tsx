@@ -1,10 +1,10 @@
-
 "use client"
 
 import { MainNav } from "@/components/layout/main-nav"
 import { BentoCard } from "@/components/dashboard/bento-card"
 import { MOCK_PRS, HEALTH_METRICS, DEBT_HOTSPOTS } from "@/app/lib/mock-data"
 import { Badge } from "@/components/ui/badge"
+import { cn } from "@/lib/utils"
 import { 
   LineChart, 
   Line, 
@@ -27,7 +27,9 @@ import {
   Terminal,
   BrainCircuit,
   Lock,
-  Gauge
+  Gauge,
+  Activity,
+  Zap
 } from "lucide-react"
 import Link from "next/link"
 
@@ -204,5 +206,3 @@ export default function Dashboard() {
     </div>
   )
 }
-
-import { Activity } from "lucide-react"

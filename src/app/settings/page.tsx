@@ -1,4 +1,3 @@
-
 "use client"
 
 import { MainNav } from "@/components/layout/main-nav"
@@ -6,7 +5,7 @@ import { BentoCard } from "@/components/dashboard/bento-card"
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
-import { Shield, Zap, Terminal, Heart, Scale, Globe } from "lucide-react"
+import { Shield, Zap, Terminal, Globe } from "lucide-react"
 
 export default function SettingsPage() {
   return (

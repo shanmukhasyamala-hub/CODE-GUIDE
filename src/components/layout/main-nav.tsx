@@ -1,4 +1,3 @@
-
 "use client"
 
 import Link from "next/link"
@@ -30,7 +29,7 @@ export function MainNav() {
         <div className="bg-primary p-1.5 rounded-lg">
           <Zap className="w-6 h-6 text-primary-foreground fill-primary-foreground" />
         </div>
-        <span className="font-headline font-bold text-xl tracking-tight">DiffSense</span>
+        <span className="font-headline font-bold text-xl tracking-tight">CodeGuide</span>
       </div>
       
       <div className="space-y-1">

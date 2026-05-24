@@ -1,9 +1,8 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'DiffSense | AI-Powered Code Review',
+  title: 'CodeGuide | AI-Powered Code Review',
   description: 'Automated real-time code analysis for engineering teams.',
 };
 

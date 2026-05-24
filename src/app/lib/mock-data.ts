@@ -1,4 +1,3 @@
-
 export interface PullRequest {
   id: string;
   title: string;
@@ -15,7 +14,7 @@ export const MOCK_PRS: PullRequest[] = [
     id: 'PR-1204',
     title: 'Feat: Add authentication layer for dashboard',
     author: 'alex_dev',
-    repository: 'diffsense/core-api',
+    repository: 'codeguide/core-api',
     status: 'issues_found',
     healthScore: 68,
     createdAt: '2024-05-20T10:00:00Z',
@@ -40,7 +39,7 @@ export const MOCK_PRS: PullRequest[] = [
     id: 'PR-1205',
     title: 'Fix: Resolve memory leak in data processor',
     author: 'sarah_eng',
-    repository: 'diffsense/worker-nodes',
+    repository: 'codeguide/worker-nodes',
     status: 'cleared',
     healthScore: 98,
     createdAt: '2024-05-21T14:30:00Z',
@@ -58,7 +57,7 @@ export const MOCK_PRS: PullRequest[] = [
     id: 'PR-1206',
     title: 'Refactor: Improve SQL query performance',
     author: 'mike_db',
-    repository: 'diffsense/analytics-engine',
+    repository: 'codeguide/analytics-engine',
     status: 'scanning',
     healthScore: 0,
     createdAt: '2024-05-22T09:15:00Z',
