@@ -3,14 +3,18 @@ AI-Powered Code Review Assistant for Engineering Teams
 
 📌 Problem Statement
 Developers spend a lot of time reviewing Pull Requests manually. During this process, important issues like bugs, security vulnerabilities, and performance problems can be easily missed.
+
 💡 Solution
 ReviewVerse AI is an AI-powered assistant that automatically reviews GitHub Pull Requests and provides smart feedback.
 It:
 Fetches PR changes from GitHub
 Uses AI to analyze code diffs
 Detects issues like:
+
 🐞 Bugs
+
 🔐 Security vulnerabilities
+
 ⚡ Performance issues
 🧹 Code smells
 Provides:
