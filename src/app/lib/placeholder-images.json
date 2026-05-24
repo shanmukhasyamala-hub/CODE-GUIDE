@@ -1,0 +1,23 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract technological grid background",
+      "imageUrl": "https://picsum.photos/seed/diffsense-hero/1200/800",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Engineer avatar",
+      "imageUrl": "https://picsum.photos/seed/eng1/100/100",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Engineer avatar",
+      "imageUrl": "https://picsum.photos/seed/eng2/100/100",
+      "imageHint": "person avatar"
+    }
+  ]
+}
