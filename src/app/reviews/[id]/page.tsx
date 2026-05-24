@@ -20,8 +20,9 @@ import {
   Zap,
   Play
 } from "lucide-react"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { analyzePullRequestIssues, type AnalyzePullRequestIssuesOutput } from "@/ai/flows/analyze-pull-request-issues"
+import { cn } from "@/lib/utils"
 
 export default function ReviewDetailPage() {
   const params = useParams()
@@ -29,7 +30,7 @@ export default function ReviewDetailPage() {
   const [isScanning, setIsScanning] = useState(false)
   const [scanResult, setScanResult] = useState<AnalyzePullRequestIssuesOutput | null>(null)
 
-  if (!pr) return <div>Not found</div>
+  if (!pr) return <div className="p-8 text-center">Pull request not found.</div>
 
   const startScan = async () => {
     setIsScanning(true)
@@ -80,7 +81,6 @@ export default function ReviewDetailPage() {
         </header>
 
         <div className="flex-1 flex overflow-hidden">
-          {/* Main Diff Content */}
           <div className="flex-1 overflow-hidden border-r bg-[#0d0e12]">
             <Tabs defaultValue="files" className="h-full flex flex-col">
               <div className="flex items-center justify-between px-4 bg-muted/20 border-b">
@@ -131,7 +131,6 @@ export default function ReviewDetailPage() {
             </Tabs>
           </div>
 
-          {/* Right AI Sidebar */}
           <aside className="w-96 flex flex-col bg-card/50">
             <div className="p-4 border-b">
               <h2 className="font-headline font-bold flex items-center gap-2">
@@ -222,5 +221,3 @@ export default function ReviewDetailPage() {
     </div>
   )
 }
-
-import { cn } from "@/lib/utils"
